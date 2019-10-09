@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+  font-family: Bevan;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+.nav a{
+  display: inline-block;
+  padding: .6em, .5em, .75em;
+  margin: .3em;
+  color: #ccc;
+  background color: #713837;
+  font-family: sans-serif;
+  text-decoration: none;
+
+}
+.nav li {
+  display: inline-block;
+}
+
+.nav a:hover {
+  background-color: #f33;
+  color: #ffffff;
+}
+
+.nav{
+  background-color: #713837;
+}
