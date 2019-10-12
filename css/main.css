@@ -5,33 +5,57 @@ html {
   line-height: 1.5;
 }
 
-h1 {
-  text-align: center;
-  font-family: Bevan;
-}
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
-.nav a{
-  display: inline-block;
-  padding: .6em, .5em, .75em;
+
+.header {
+  background-color:#79756f;
+  text-align: center;
+  display: block;
+  padding: .6em;
   margin: .3em;
-  color: #ccc;
-  background color: #713837;
-  font-family: sans-serif;
-  text-decoration: none;
-
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
 }
-.nav li {
+
+h1 {
+  text-align: center;
+  font-family: Bevan;
+  color: #fff;
+  display: block;
+  padding: .6em;
+  margin: .3em;
+  background-color: #79756f;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+}
+
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+}
+
+.nav a {
   display: inline-block;
-}
-
-.nav a:hover {
-  background-color: #f33;
-  color: #ffffff;
-}
-
-.nav{
+  width: 6em;
+  padding: 1em;
+  border-radius: 4px;
   background-color: #713837;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #f33;
+  color: #fff;
 }
