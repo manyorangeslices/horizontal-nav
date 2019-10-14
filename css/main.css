@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: Georgia, serif;
+  font-family: Bevan, sans-serif;
   line-height: 1.5;
 }
 
@@ -27,7 +27,7 @@ body {
 
 h1 {
   text-align: center;
-  font-family: Bevan, sans-serif;
+  font-family: Bevan, serif;
   color: #fff;
   display: block;
   padding: .1em;
